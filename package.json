@@ -1,0 +1,35 @@
+{
+  "name": "bot",
+  "main": "index.js",
+  "description": "Alexander Bot",
+  "version": "0.1.1",
+  "private": false,
+  "engines": {
+    "node": "6.*"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBM-Bluemix/get-started-node.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.x",
+    "cfenv": "^1.0.x",
+    "cloudant": "^1.7.x",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.x",
+    "htmlparser": "^1.7.7",
+    "request": "^2.83.0",
+    "watson-developer-cloud": "^2.42.0",
+    "v1": "^1.0.0"
+  },
+  "author": "IBM Corp",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/IBM-Bluemix/get-started-node/issues"
+  },
+  "homepage": "https://github.com/IBM-Bluemix/get-started-node#readme",
+  "devDependencies": {}
+}
